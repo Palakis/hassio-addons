@@ -1,0 +1,13 @@
+name: "Liquidsoap"
+description: "Liquidsoap runner"
+version: "2.2.4"
+slug: liquidsoap
+init: false
+ports:
+  8000/tcp: 8000
+ports_descriptions:
+  8000/tcp: "Harbor server"
+map:
+  - share:rw
+arch:
+  - amd64

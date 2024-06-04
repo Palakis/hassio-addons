@@ -10,8 +10,8 @@ jobs:
     name: 'Build image'
     strategy:
       matrix:
-        arch: [amd64, aarch64, armv7]
         addon: [liquidsoap]
+        arch: [amd64, aarch64, armv7]
     runs-on: ubuntu-latest
     permissions:
       packages: write

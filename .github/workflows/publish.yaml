@@ -29,4 +29,4 @@ jobs:
           args: |
             --${{ matrix.arch }} \
             --target ${{ matrix.addon }} \
-            --docker-hub ghcr.io
+            --docker-hub ghcr.io/palakis

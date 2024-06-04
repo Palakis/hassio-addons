@@ -1,4 +1,4 @@
-name: 'Continuous integration'
+name: 'Publish add-on images'
 
 on:
   push:
@@ -27,6 +27,5 @@ jobs:
         uses: home-assistant/builder@master
         with:
           args: |
-            --test \
             --${{ matrix.arch }} \
             --target ${{ matrix.addon }}

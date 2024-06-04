@@ -1,6 +1,6 @@
 name: "Liquidsoap"
 description: "Liquidsoap runner"
-version: "2.2.4"
+version: "2.2.4-1"
 slug: liquidsoap
 init: false
 ports:

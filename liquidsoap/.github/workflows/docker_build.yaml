@@ -1,0 +1,23 @@
+name: 'Build Docker images'
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_amd64:
+    name: 'Build amd64'
+    strategy:
+      matrix:
+        addon: [liquidsoap]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build amd64 image
+        uses: home-assistant/builder@master
+        with:
+          args: |
+            --test \
+            --all \
+            --target ${{ matrix.addon}}

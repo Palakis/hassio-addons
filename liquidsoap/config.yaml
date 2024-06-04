@@ -1,7 +1,7 @@
 name: "Liquidsoap"
 description: "Liquidsoap runner"
 version: "2.2.4-1"
-image: "ghcr.io/palakis/hassio-addon-liquidsoap"
+image: "ghcr.io/palakis/hassio-addon/liquidsoap"
 slug: liquidsoap
 init: false
 ports:

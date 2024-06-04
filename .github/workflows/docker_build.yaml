@@ -12,13 +12,15 @@ jobs:
       matrix:
         addon: [liquidsoap]
     runs-on: ubuntu-latest
+    env:
+      ADDON: ${{ matrix.addon }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build add-on images
+      - name: Build add-on image
         uses: home-assistant/builder@master
         with:
           args: |
             --test \
             --amd64 \
-            --target ${{ matrix.addon}}
+            --target $ADDON

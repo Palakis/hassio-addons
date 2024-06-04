@@ -8,6 +8,7 @@ ports:
 ports_descriptions:
   8000/tcp: "Harbor server"
 map:
-  - share:rw
+  - addon_config:rw
+  - media:rw
 arch:
   - amd64

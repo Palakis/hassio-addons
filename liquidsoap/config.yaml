@@ -13,3 +13,5 @@ map:
   - media:rw
 arch:
   - amd64
+  - aarch64
+  - armv7

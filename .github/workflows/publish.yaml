@@ -28,4 +28,5 @@ jobs:
         with:
           args: |
             --${{ matrix.arch }} \
-            --target ${{ matrix.addon }}
+            --target ${{ matrix.addon }} \
+            --docker-hub ghcr.io

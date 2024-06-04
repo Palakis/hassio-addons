@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  build_amd64:
-    name: 'Build amd64'
+  build_images:
+    name: 'Build images'
     strategy:
       matrix:
         addon: [liquidsoap]
@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build amd64 image
+      - name: Build add-on images
         uses: home-assistant/builder@master
         with:
           args: |
             --test \
-            --all \
+            --amd64 \
             --target ${{ matrix.addon}}

@@ -1,6 +1,6 @@
 # Home Assistant Add-on: Liquidsoap
 
-Liquidsoap runner for Home Assistant.
+Liquidsoap runner for Home Assistant, bundled with yt-dlp.
 
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports aarch64 Architecture][aarch64-shield]

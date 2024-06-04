@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         addon: [liquidsoap]
-        arch: [amd64, aarch64]
+        arch: [amd64, aarch64, armv7]
     runs-on: ubuntu-latest
     permissions:
       packages: write

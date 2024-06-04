@@ -84,7 +84,7 @@ RUN \
 WORKDIR /
 ENTRYPOINT ["/init"]
 
-RUN apk add --no-cache python3 py3-pip py3-brotli ffmpeg
+RUN apk add --no-cache python3 py3-pip py3-brotli py3-pycryptodomex ffmpeg
 RUN pip3 install --no-cache --break-system-packages yt-dlp
 
 COPY run.sh /

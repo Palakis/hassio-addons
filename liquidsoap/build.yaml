@@ -1,8 +1,8 @@
 image: lofi-girl-relay
 build_from:
-  amd64: "savonet/liquidsoap-alpine:v2.2.4"
-  aarch64: "savonet/liquidsoap-alpine:v2.2.4"
-  armv7: "savonet/liquidsoap-alpine:v2.2.4"
+  amd64: "savonet/liquidsoap-alpine:v2.2.5"
+  aarch64: "savonet/liquidsoap-alpine:v2.2.5"
+  armv7: "savonet/liquidsoap-alpine:v2.2.5"
 args:
   BASHIO_VERSION: 0.16.2
   TEMPIO_VERSION: 2021.09.0

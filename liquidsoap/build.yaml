@@ -9,8 +9,3 @@ args:
   JEMALLOC_VERSION: 5.3.0
 cosign:
   identity: https://github.com/Palakis/hassio-addons/.*
-# Codenotary is disabled in the supervisor since 2023.4.0, and it's currently (2024.6.4) still
-# is the case until the feature gets reworked with cosign.
-# Putting this here will just make the addon UI show the "Signed" badge without having to get it signed by Codenotary.
-codenotary:
-  signer: stephane.lepin@gmail.com

@@ -8,3 +8,5 @@ args:
   TEMPIO_VERSION: 2021.09.0
   S6_OVERLAY_VERSION: 3.1.6.2
   JEMALLOC_VERSION: 5.3.0
+cosign:
+  identity: https://github.com/Palakis/hassio-addons/.*

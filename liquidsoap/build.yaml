@@ -1,4 +1,3 @@
-image: lofi-girl-relay
 build_from:
   amd64: "savonet/liquidsoap-alpine:v2.2.5"
   aarch64: "savonet/liquidsoap-alpine:v2.2.5"

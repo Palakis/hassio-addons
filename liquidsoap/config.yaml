@@ -1,6 +1,6 @@
 name: "Liquidsoap"
 description: "Liquidsoap runner for Home Assistant, bundled with yt-dlp"
-version: "2.2.4-1"
+version: "2.2.4-2"
 image: "ghcr.io/palakis/hassio-addon/liquidsoap-{arch}"
 slug: liquidsoap
 init: false
@@ -11,6 +11,7 @@ ports_descriptions:
 map:
   - addon_config:rw
   - media:rw
+  - share:rw
 arch:
   - amd64
   - aarch64

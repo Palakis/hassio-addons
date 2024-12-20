@@ -1,4 +1,4 @@
-name: 'Publish add-on images'
+name: "Publish add-on images"
 
 on:
   release:
@@ -6,11 +6,11 @@ on:
 
 jobs:
   build_images:
-    name: 'Build image'
+    name: "Build image"
     strategy:
       matrix:
         addon: [liquidsoap]
-        arch: [amd64, aarch64, armv7]
+        arch: [amd64, aarch64]
     runs-on: ubuntu-latest
     permissions:
       contents: read

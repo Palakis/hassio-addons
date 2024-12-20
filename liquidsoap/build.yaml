@@ -1,7 +1,6 @@
 build_from:
   amd64: "savonet/liquidsoap-alpine:v2.3.0"
   aarch64: "savonet/liquidsoap-alpine:v2.3.0"
-  armv7: "savonet/liquidsoap-alpine:v2.3.0"
 args:
   BASHIO_VERSION: 0.16.2
   TEMPIO_VERSION: 2021.09.0
